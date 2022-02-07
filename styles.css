@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 10px 50px;
+}
+
+header {
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    position: fixed;
+    padding: 10px 50px;
+    background-color: white;
+}
+
+header h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+    margin: 10px 0;
+}
+
+
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    position: relative;
+    top: 50px
+}
+
+
+section {
+    margin: 10px 0;
+}
+/*Color section*/
+
+#colors {
+    border: 2px solid black;
+}
+
+#colors h2 {
+    margin: 10px 20px;
+}
+
+.cold-colors {
+    margin: 10px;
+}
+
+.warm-colors {
+    margin: 10px;
+}
+
+.color-container {
+    width: 240px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.main-color {
+    width: 100%;
+    height: 40%;
+}
+
+.color {
+    width: 100%;
+    height: 20%;
+}
+
+.color-container p {
+    padding: 4px;
+    color: white;
+    font-size: small;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*Colors*/
+
+.navy {
+    background-color: #041C32;
+}
+
+.dark-blue {
+    background-color: #04293A;
+}
+
+.dark-aqua {
+    background-color: #064663;  
+}
+
+.light-orange {
+    background-color: #ECB365;
+}   
+
+.light-navy {
+    background-color: #204051;
+}
+
+.navy-teal {
+    background-color: #3B6978;
+}
+
+.gray-teal {
+    background-color: #84A9AC;
+}
+
+.clear-teal {
+    background-color: #CAE8D5;
+}
+
+.light-green {
+    background-color: #93E4C1;
+}
+
+.teal {
+    background-color: #3BAEA0;
+}
+
+.green-teal {
+    background-color: #118A7E;
+}
+
+.dark-teal {
+    background-color: #1F6F78;
+}
+
+.brown {
+    background-color: #9D5C0D;
+}
+
+.dark-orange {
+    background-color: #E5890A;
+}
+
+.strong-beige {
+    background-color: #F7D08A;
+}
+
+.light-gray {
+    background-color: #FAFAFA;
+}
+
+.light-yellow { 
+    background-color: #FDEF96;
+}
+
+.yellow-orange {
+    background-color: #F7B71D;
+}   
+
+.yellow-green {
+    background-color: #AFA939;
+}   
+
+.dark-green {
+    background-color: #2B580C;
+}
+
+.dark-brown {
+    background-color: #483434;
+}
+
+.tosted-brown {
+    background-color: #6B4F4F;
+}
+
+.beige {
+    background-color: #EED6C4;
+}
+
+.light-beige {
+    background-color: #FFF3E4;
+}
