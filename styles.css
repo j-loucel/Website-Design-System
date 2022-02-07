@@ -20,6 +20,7 @@ header {
 
 header h1 {
     float: left;
+    font-family: 'Arvo';
 }
 
 nav {
@@ -40,7 +41,8 @@ nav ul li a{
 
 main {
     position: relative;
-    top: 50px
+    top: 50px;
+    padding-bottom: 10px;
 }
 
 
@@ -188,4 +190,95 @@ section {
 
 .light-beige {
     background-color: #FFF3E4;
+}
+
+/*text*/
+
+#fonts {
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+
+.css-fonts h3 {
+    margin: 10px 0;
+}
+
+.google-fonts h3 {
+    margin-top: 10px;
+}
+
+.text-container {
+    display: inline-block;
+    width: 450px;
+}
+
+.text-container h4 {
+    text-decoration: underline;
+}
+
+.serif h4, 
+.serif p{
+    font-family: serif;
+}
+
+.monosoace h4, 
+.monosoace p {
+    font-family: monospace;
+    font-size: large;
+}
+
+.san-serif h4,
+.san-serif p {
+    font-family: sans-serif;
+}
+
+.robot h4,
+.robot p {
+    font-family: Roboto;
+}
+
+.roboto-mono h4, 
+.roboto-mono p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.ibm-plex-serif h4,
+.ibm-plex-serif p {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/*Text Styles*/
+
+#text-styles {
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+
+.text-style-container {
+    margin-top: 10px;
+}
+
+.text-style-container h1 {
+    font-family: Georgia;
+}
+
+.text-style-container h2 {
+    font-family: Roboto;
+}
+
+.text-style-container p {
+    font-family: Roboto;
+}
+
+.text-style-container ul {
+    margin: 0 30px;
+    padding-top: 10px;
 }
